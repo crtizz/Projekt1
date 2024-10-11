@@ -2,7 +2,7 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 18px;
     color: #c5c9ce;
-    background-color: white;
+    background-color: oldlace;
     margin: 0;
     padding: 20px;
 }
@@ -23,8 +23,7 @@ h1 {
  
 h2 {
     font-size: 1.5em;
-    text-align: left;
-    width: 30%;
+    text-align: center;
 }
  
 h3 {
@@ -36,24 +35,24 @@ h3 {
 p {
     font-family: 'Lora', serif;
     font-size: 1.1em;
-    line-height: 1.8;
     color: black;
     text-align: justify;
     margin-bottom: 20px;
+    line-height: 10px;
 }
 
-.small {
-    width: 1195px;
-    height: 200px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-  }
+.small, .big {
+    width: 1200px;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
 
 .big {
-    width: 1195px;
-    height: 700px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-  }
+    height: auto;
+}
+
+.box {
+    text-align: center;
+}
